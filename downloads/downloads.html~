@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!-- This is for the favicon icon I supposedly need for my website...-->
+<link rel ="icon"
+	type=image/x-icon
+	href="vvsIcon.ico">
+	
+<link	rel = "stylesheet"
+		type = "text/css"
+		href = "style.css" />
+		
+		
+<title>Welcome to vv's website!  </title>	
+	<head>
+
+	</head>
+<body>	
+	<!-- This is for the navigation bar -->
+	<div id=navBar>
+	<header>					
+	<!--&nbsp makes a non breaking space in between things making them look pretty!!!-->
+		<a href = "bookmarks/bookmarks.html">My Bookmarks</a> &nbsp;
+		<a href = "index.html">Home Page</a> &nbsp;
+		<a href = "theCampaign/theCampaign.html">The Campaign</a>
+		<a href = "Downloads/downloads.html"> Downloads</a>
+	</header>
+	</div>
+		
+
+	<div id=footer
+		<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img 
+		alt="Creative Commons License" style="border-width:0" 
+		src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />
+		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
+		Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+		
+	</div>
+</body>
+</html>

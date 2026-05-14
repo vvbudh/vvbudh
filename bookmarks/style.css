@@ -1,0 +1,68 @@
+/* style.css */
+/* The bookmarks page style sheet */
+
+A:link 
+{
+	color: #FFF;
+}
+a, a:visited{
+	color: #FFF;
+}
+
+#navBar
+{
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #FFF;
+	font-size:24px;
+}
+
+#body
+{
+	color:white;
+	/*This is to show the background image*/
+	background: black url("earth.jpg") no-repeat center top;
+	background-size: cover;
+	background-size: 100%;
+	
+}
+
+#weblinks
+{
+	/*This is to change the color of the links from blue to black? */
+	
+	padding-left: 15px;
+	
+	color:#FFF;
+	
+	font-family: Georgia, helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	
+	line-height:1em;
+	/*same as above but shorter.
+	font:normal, 16px, Georgia, Arial, sans-serif;
+	*/
+
+}
+
+
+
+
+
+#footer
+{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	width: 100%;
+	text-align: right;
+	background-color:purple;
+	
+	font-size:11px;
+	padding-top: 0px;
+	padding-right: -15px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}

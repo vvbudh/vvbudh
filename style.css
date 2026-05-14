@@ -1,0 +1,43 @@
+/*style.css*/
+/*This is the home page of vvbudh.com*/
+
+A:link
+{
+	color: #FFF;
+}
+a, a:visited{
+	color: #FFF;
+}
+
+#navBar
+{
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #FFF;
+	font-size:24px;
+}
+
+#body
+{
+    color:white;
+	/*This is to show the background image*/
+	background: black url("EdWhite.jpg") no-repeat center top;
+	background-size: cover;
+	background-size: 100%;
+
+#footer
+{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	width: 100%;
+	text-align: right;
+	background-color:purple;
+	
+	font-size:11px;
+	padding-top: 0px;
+	padding-right: -15px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
