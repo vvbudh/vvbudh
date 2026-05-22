@@ -1,14 +1,7 @@
 /*style.css*/
 /*This is the home page of vvbudh.com*/
-
-A:link
-{
-	color: #FFF;
-}
-a, a:visited{
-	color: #FFF;
-}
-
+A:link:{color: #FFF;}
+a, a:visited{color: #FFF;}
 #navBar
 {
 	text-align: center;
@@ -16,28 +9,83 @@ a, a:visited{
 	border: 1px solid #FFF;
 	font-size:24px;
 }
+#head
+{
+	text-align: center;
+}
 
-#body
+body
 {
     color:white;
 	/*This is to show the background image*/
-	background: black url("EdWhite.jpg") no-repeat center top;
 	background-size: cover;
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
 
-#footer
+/* The settings for all divs on the pages.*/
+div {
+	padding: 20px;
+}
+
+/*#footer
 {
 	position:absolute;
-	left:0;
-	right:0;
-	bottom:0;
+	bottom:5px;
 	width: 100%;
 	text-align: right;
 	background-color:purple;
 	
 	font-size:11px;
-	padding-top: 0px;
+/*	padding-top: 0px;
 	padding-right: -15px;
 	padding-bottom: 10px;
 	padding-left: 0px;
+*/
 }
+
+.footerBlock
+{
+	position: fixed;
+
+	text-align: right;
+	inset: 90% 0% 0% 0%;
+	background-color:purple;
+}
+
+/* Footer # 2 With Flex Containers. */
+.flexNavBarParentContainer {
+	display: flex;
+	justify-content: center;
+/*	background-color: gray; /*Temp for debugging */
+	gap: 24px;
+
+	border: 1px solid white;
+	/*align-items: start,flex-end, center, lets you adjust the size of items, individually or not.*/
+
+}
+
+.flexNavBarChildContainer {
+/*	background-color: darkblue; */
+	/*align-self: flex-end;*/
+
+
+	&:nth-child(1)
+	{
+/*		background-color: darkmagenta; */
+/*		height:24px; */
+
+	}
+}
+
+/*
+ width: 100px;
+ height: 50px;           *
+ font-size: 24px;
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ background-color: gray;
+ flex-wrap: nowrap; or wrap
+ justify-content: space-around, space-evenly, space-between, center,
+ Also mind the gap earlier gap: 20px;
+ */

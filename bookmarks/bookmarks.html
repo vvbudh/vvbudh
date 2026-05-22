@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html>
-
 <!-- This is for the favicon icon I supposedly need for my website...-->
 <link rel ="icon"
 	type=image/x-icon
-	href="vvsIcon.ico">
+	href="../vvsIcon.ico">
+<!-- Style Sheet link -->
 <link rel = "stylesheet"
 	type = "text/css"
-	href = "style.css" />
+	href = "../style.css" />
 
-<title> Welcome this is where I bookmark links!" </title>
+<title> Bookmarks here!</title>
+
+<style>
+	body
+	{
+		background-image: url("earth.jpg");
+		background-size: cover;
+		background-position: top;
+		background-attachment: fixed;
+	}
+</style>
+
 <meta name = "description" content = "This webpage is used to bookmark websites relating to technology, software, tools, and other useful informaion. You're free to bookmark this if you want."
 
-<!-- This is how you link text to the css style sheet -->
-<head>
 <!-- This is for the navigation bar -->
-	<div id=navBar>
-	<header>					
-	<!--&nbsp makes a non breaking space in between things making them look pretty!!!-->
-		<a href = "bookmarks.html">My Bookmarks</a> &nbsp;
-		<a href = "../index.html">Home Page</a> &nbsp;
-		<a href = "../theCampaign/theCampaign.html">The Campaign</a> &nbsp;
-		<a hrer = "../downloads/downloads.html"> Downloads</a>
-	</header>
-	</div>
-	
-	
-	
-<br><br>
-<header>
+	<div class="flexNavBarParentContainer">
+
+	<a href="bookmarks.html" class="flexNavBarChildContainer"><div><h3>My Bookmarks</h3></div></a>
+	<a href="../index.html" class="flexNavBarChildContainer"><div><h3>Home Page</h3></div></a>
+	<a href="../theCampaign/theCampaign.html" class="flexNavBarChildContainer"><div><h3>The Campaign</h3></div></a>
+	<a href="../downloads/downloads.html" class="flexNavBarChildContainer"><div><h3>Downloads</h3></div></a>
+	<a href="../webRing/webRing.html" class="flexNavBarChildContainer"><div><h3>Web Ring</h3></div></a>
 </div>
 
-</head>
+
+
+
+<!-- This is how you link text to the css style sheet -->
+
 
 
 
@@ -86,15 +92,16 @@
 	<a href=https://www.diffen.com/difference/Apples_vs_Oranges> The best website to compare random objects. </a>
 	</p>
 	</div>
-		
-		<div id=footer
-		<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img 
-		alt="Creative Commons License" style="border-width:0" 
+
+<!-- This is for the Footer that's Absolutely going to be okay. -->
+<div class="footerBlock">
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img
+		alt="Creative Commons License" style="border-width:0"
 		src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />
 		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
 		Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
-		
-	</div>
+</div>
 </body>
 
 

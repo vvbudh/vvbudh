@@ -17,11 +17,11 @@ a, a:visited{
 	font-size:24px;
 }
 
-#body
+body
 {
 	color:white;
 	/*This is to show the background image*/
-	background: black url("earth.jpg") no-repeat center top;
+	<!-- background: black url("earth.jpg") no-repeat center top; -->
 	background-size: cover;
 	background-size: 100%;
 	

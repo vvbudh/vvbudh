@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html>
-
 <!-- This is for the favicon icon I supposedly need for my website...-->
 <link rel ="icon"
 	type=image/x-icon
 	href="vvsIcon.ico">
+<!-- Style Sheet link -->
 <link rel = "stylesheet"
 	type = "text/css"
 	href = "style.css" />
 
 <title>Welcome to vv's website!  </title>	
-<body>	
-	<!-- This is for the navigation bar -->
+<!-- Must have an inline <style> and "body{}" section for every single .html file with it's own separate background. -->
+<style>
+	body {
+		background-image: url("EdWhite.jpg");
+		background-size: cover;
+		background-position: top;
+		background-attachment: fixed;
+	}
+</style>
+
+<!--	 This is for the navigation bar which is now depricated in favour of the Flexbox.
 	<div id=navBar>
 	<header>					
-	<!--&nbsp makes a non breaking space in between things making them look pretty!!!-->
+	<!--&nbsp makes a non breaking space in between things making them look pretty!!!
 		<a href = "bookmarks/bookmarks.html">My Bookmarks</a> &nbsp;
 		<a href = "index.html">Home Page</a> &nbsp;
 		<a href = "theCampaign/theCampaign.html">The Campaign</a> &nbsp;
 		<a href = "downloads/downloads.html"> Downloads</a>
 	</header>
-	</div>
+	</div> -->
+
+<!--	</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br> I have no idea how to get the footer to the bottom of the page without doing these line breaks. FLEX BOXES! -->
 		
 
-	<div id=footer
+
+<!-- This is for the Flex Nav bar. -->
+<div class="flexNavBarParentContainer">
+
+	<a href="bookmarks/bookmarks.html" class="flexNavBarChildContainer"><div><h3>My Bookmarks</h3></div></a>
+	<a href="index.html" class="flexNavBarChildContainer"><div><h3>Home Page</h3></div></a>
+	<a href="theCampaign/theCampaign.html" class="flexNavBarChildContainer"><div><h3>The Campaign</h3></div></a>
+	<a href="downloads/downloads.html" class="flexNavBarChildContainer"><div><h3>Downloads</h3></div></a>
+	<a href="webRing/webRing.html" class="flexNavBarChildContainer"><div><h3>Web Ring</h3></div></a>
+</div>
+
+<!-- This is for the Footer that's Absolutely going to be okay. -->
+<div class="footerBlock">
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img
+		alt="Creative Commons License" style="border-width:0"
+		src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />
+		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
+		Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+</div>
+
+
+<!--	<div id=footer
 		<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img 
 		alt="Creative Commons License" style="border-width:0" 
 		src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />
 		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
 		Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
 		
-	</div>
-</body>
+	</div> -->
 </html>

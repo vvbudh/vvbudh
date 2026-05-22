@@ -1,45 +1,67 @@
 <!DOCTYPE html>
 <html>
-
+<!-- This is for the favicon icon I supposedly need for my website...-->
 <link rel ="icon"
-	type=image/x-icon
-	href="../vvsIcon.ico">
-
+type=image/x-icon
+href="../vvsIcon.ico">
 <!-- Style Sheet link -->
-	<link rel = "stylesheet"
-	type = "text/css"
-	href = "style.css" />
+<link rel = "stylesheet"
+type = "text/css"
+href = "../style.css" />
 	
+<title> Download Me!</title>
+
+<style>
+	body
+	{
+		background-image: url("6.jpg");
+		background-size: cover;
+		background-position: top;
+		background-attachment:fixed;
+	}
+</style>
+
+<meta name = "description" content = "This webpage is for hosting items that would otherwise be posted to a 3rd party site. But I can self host it instead."
+
 <!-- This is for the navigation bar -->
-	<div id=navBar>
-	  <header>
-	   <!--&nbsp makes a non breaking space in between things making them look pretty!!!-->
-		<a href = "../bookmarks/bookmarks.html">My Bookmarks</a> &nbsp;
-		<a href = "../index.html">Home Page</a> &nbsp;
-		<a href = "../theCampaign/theCampaign.html">The Campaign</a> &nbsp;
-		<a href = "downloads.html"> Downloads<a/>
-	</header>
-	</div>
-	
+	<div class="flexNavBarParentContainer">
+
+	<a href="../bookmarks/bookmarks.html" class="flexNavBarChildContainer"><div><h3>My Bookmarks</h3></div></a>
+	<a href="../index.html" class="flexNavBarChildContainer"><div><h3>Home Page</h3></div></a>
+	<a href="../theCampaign/theCampaign.html" class="flexNavBarChildContainer"><div><h3>The Campaign</h3></div></a>
+	<a href="downloads.html" class="flexNavBarChildContainer"><div><h3>Downloads</h3></div></a>
+	<a href="../webRing/webRing.html" class="flexNavBarChildContainer"><div><h3>Web Ring</h3></div></a>
+</div>
 	
 	
 	<!--this is for the title that people see -->
 	<!--Also &rsquo; is an apostrophe a " ' " mark thing.-->
 <title>Download me!</title>
-	<div id=head <head>
-		<h1>Feel free to download these, I&rsquo;m just hosting these here cause it&rsquo;s easy enough.</h1>
-	</head></div>
+<div id=head <head>
+	<h1>Feel free to download these, I&rsquo;m just hosting these here cause it&rsquo;s easier than Imgur.</h1>
+</div>
 
-		<h3>This is my save file from Ostranauts where I can&rsquo;t wake up.</h3>
-		<div id=overview <p>
-		     <a href = "beforeunconciouserror.zip"> The Zip file containing the Ostronauts save.</a>
-		 </p> </div>
+
+
+
+
+<h2>1) This is my save file from Ostranauts where I can&rsquo;t wake up.</h2>
+<div id=overview <p>
+	<a href = "beforeunconciouserror.zip"> <img src= "Ostranauts.png"<alt="The Ostranauts Logo"> </a> </br> Click the logo to download the save file.
+</div>
+
+</br></br></br>
+
+
+<h2>2)Dark and Darker Win!</h2>
+	<div id=overview <p>
+	<video width="320" height="240" controls>
+		<source src="D&DWin.mp4" type="video/mp4">
+		Dark and Darker Win!!
+	</video>
 		
-		<h3> Item 2 Placeholder.</h3>
-		<div id=overview <p>BLUAKE
-		
-		<h3> Item 3 Placeholder.</h3>
-		<div id=overview <p>BLANK</p> </div>
+<h3> Item 3 Placeholder.</h3>
+<div id=overview <p>BLANK</p> </div>
 		
 		
 
@@ -49,14 +71,14 @@
 </div>
 <br><br>
 
-	<div id=footer
-		<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img 
-		alt="Creative Commons License" style="border-width:0" 
+<!-- This is for the Footer that's Absolutely going to be okay. -->
+<div class="footerBlock">
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img
+		alt="Creative Commons License" style="border-width:0"
 		src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />
 		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
 		Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
-		
-	</div>
-	</body>
+</div>
 
 </html>

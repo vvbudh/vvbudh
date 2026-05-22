@@ -1,12 +1,7 @@
 /* style.css */
 /* The campaign style sheet. */
-A:link 
-{
-		color: #FFF;	
-}
-a, a:visited{
-     color: #FFF;
-}
+A:link:{color: #FFF;}
+a, a:visited{color: #FFF;}
 #navBar
 {
 	text-align: center;
@@ -16,13 +11,14 @@ a, a:visited{
 }
 #head
 {
-		text-align: center;
+	text-align: center;
 }
 body
 {
-	color: white;
+	color:white;
+	/*This is to show the background image*/
 	background-size: cover;
-	background: url(m81.jpg) no-repeat center top;
+	background: url(m81.jpg) no-repeat top;
 	background-color: #000000;
 }
 
@@ -51,9 +47,10 @@ body
 
 #footer
 {
-	position:absolute;
-	left:0;
+	position:fixed;
+/*	left:0;
 	right:0;
+*/
 	bottom:0;
 	width: 100%;
 	text-align: right;
