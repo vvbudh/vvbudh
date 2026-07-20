@@ -27,6 +27,17 @@ div {
 /*	padding: 5px; */
 }
 
+
+/* This is all for the two words of RED and YELLOW in the Helpfuls tab. */
+wordRed{
+	  color: red;
+}
+
+wordYellow{
+	  color: yellow;
+}
+
+
 /*#footer
 {
 	position:absolute;
