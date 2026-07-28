@@ -1,6 +1,10 @@
 {
 	"version": "0.1.1",
 	"url": "https://vvbudh.com",
-	"vouches": [{"url":"https://sightlessscribbles.com/","vouched_at":"2026-07-19"},{"url":"https://klymilark.omg.lol","vouched_at":"2026-07-19"}]
+	"vouches":
+	[
+	{"url":"https://sightlessscribbles.com/","vouched_at":"2026-07-19"},
+	{"url":"https://klymilark.omg.lol","vouched_at":"2026-07-19"}
+	]
 }
 
