@@ -37,6 +37,18 @@ wordYellow{
 	  color: yellow;
 }
 
+/* I need a way to make the white text legible on my writing's page. So I'll be adding a uhh, thing
+ * to do so...*/
+details[open] {
+	background-color: black;
+	border-left: 3px solid #FF9000;
+}
+
+summary {
+
+	font-size: 20px;
+
+}
 
 /*#footer
 {
